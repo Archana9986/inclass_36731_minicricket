@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
         //
         // This works for code too, not just values: Most code changes can be
         // tested with just a hot reload.
-        colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 183, 142, 67)),
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 183, 162, 67)),
       ),
       home: const MyHomePage(title: 'Mini Cricket'),
     );
@@ -125,7 +125,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
       body: Container(
         width: double.infinity,
-        color: Colors.green,
+        color: Colors.blueAccent,
 
         child: Center(
           // Center is a layout widget. It takes a single child and positions it
@@ -190,8 +190,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     children: [
                       Image.asset(
                         'assets/images/ball.png',
-                        width: 180,
-                        height: 180,
+                        width: 180
+                        height: 180
                         fit: BoxFit.contain,
                       ),
 
